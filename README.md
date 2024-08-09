@@ -1,75 +1,43 @@
-# Nuxt 3 Minimal Starter
+# BluPrynt
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+BluPrynt is a web-based tool designed to help users select the best technology stack for their software projects. By answering a series of carefully crafted questions, users receive tailored recommendations that align with their project goals, technical requirements, and constraints.
+
+This project is developed using **Nuxt 3** (built on top of Vue.js) to create a highly performant and flexible web application.
+
+## Project Overview
+
+BluPrynt.tech aims to simplify the decision-making process for selecting a technology stack. The tool provides a user-friendly interface to guide users through the questionnaire and deliver custom tech stack suggestions based on the provided answers.
+
+## Features
+
+- **Dynamic Questionnaire**: Users are guided through a series of questions related to their project’s needs.
+- **Tailored Recommendations**: The tool provides suggestions for front-end, back-end, databases, and other tools based on user inputs.
+- **Scalability**: Designed to handle projects of varying sizes, from small startups to enterprise-level applications.
+- **Responsive Design**: The application is optimized for both desktop and mobile users.
+
+## Tech Stack
+
+- **Front-End**: Nuxt 3 (Vue.js)
+- **Back-End**: To be decided based on future development.
+- **Database**: To be determined based on the back-end selection.
+- **Hosting**: To be decided, considering cloud services like AWS, Azure, or others.
 
 ## Setup
 
-Make sure to install the dependencies:
+To get started with BluPrynt, clone the repository and install the necessary dependencies.
+
+### Install Dependencies
 
 ```bash
 # npm
 npm install
 
-# pnpm
-pnpm install
-
 # yarn
 yarn install
+
+# pnpm
+pnpm install
 
 # bun
 bun install
 ```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
